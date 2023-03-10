@@ -1,3 +1,12 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(4, 99, 67);
+}
+
+img{
+    width: 200px; /*Ancho de la imagen*/
+    height: 200px; /*Alto de la imagen*/
+}
+
+tr:hover{
+    background-color: azure;
 }
