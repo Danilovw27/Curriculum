@@ -10,3 +10,13 @@ img{
 tr:hover{
     background-color: azure;
 }
+
+input{
+    border-radius: 2px;
+    border: 2px solid orange;
+    
+}
+
+#nombrepersona{
+    height: 15px;
+}
