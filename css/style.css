@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(4, 99, 67);
+    background-color: rgb(72, 139, 117);
 }
 
 img{
@@ -12,6 +12,7 @@ tr:hover{
 }
 
 input{
+    height: 30px;
     border-radius: 2px;
     border: 2px solid orange;
     
@@ -19,4 +20,7 @@ input{
 
 #nombrepersona{
     height: 15px;
+}
+h1{
+    height: 60px;
 }
