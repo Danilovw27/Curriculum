@@ -116,7 +116,93 @@ nav {
     text-transform: uppercase;
     box-shadow: 0 8px 32px rgba(97, 31, 31, 0.46);
 }
+/*######################################################################## Education ###########*/
 
+.section-education {
+    background-color: #5d6678;
+}
+.section-education .title {
+    display: block;
+    margin: 15px 0 15px 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content-education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.education {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+}
+.education i {
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 36px;
+}
+.education:hover {
+    background-color: red;
+    box-shadow: 0 0 8px gray;
+    transition: all ease-in-out .4s; 
+}
+.content-education .education a {
+    color: #5d6678;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+.content-education .education a:hover {
+    color: #fff;
+}
+/*######################################################################## certificados ###########*/
+
+.title-1 {
+    display: flex;
+    margin: 15px 0 0 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+ .content-certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+ }
+ .certificates {
+    width: 22%;
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
+ }
+.certificates img {
+    height: auto;
+    width: 100%;
+}
+.certificates a {
+    font-size: 12px;
+    color: #5d6678;
+    text-decoration: none;
+}
+.certificates:hover {
+    background-color: red;
+    box-shadow: 0 0 8px gray;
+    transform: scale(1.1);
+    transition: all ease-in-out 7s;
+}
 /*######################################################################## PIE DE PAGINA ###########*/
 
     footer{
