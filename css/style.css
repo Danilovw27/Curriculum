@@ -46,6 +46,7 @@ nav {
 .enlaces-header {
     font-weight: 300;
     margin: auto;
+    transition: all ease-in-out .6s;
 }
 
 .nav .enlaces-header a {
@@ -61,6 +62,24 @@ nav {
     background-color: #d03d3d;
     border-color: #d03d3d;
     transition: all ease-in-out .5s;
+}
+.hamburguer {
+    height: 80px;
+    width: 80px;
+    background-color: #5d6678;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    display: none;
+}
+.hamburguer >i{
+    font-size: 25px;
+    line-height: 70px;
+}
+i{
+    font-size: 25px;
+    line-height: 80px;
+    margin: 0 auto;
 }
 
 .titulospro {
@@ -178,7 +197,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-bottom: 30px;
+    padding-bottom: 30px;       
  }
  .certificates {
     width: 22%;
@@ -201,7 +220,7 @@ nav {
     background-color: red;
     box-shadow: 0 0 8px gray;
     transform: scale(1.1);
-    transition: all ease-in-out 7s;
+    transition: all ease-in-out .5s;
 }
 /*######################################################################## PIE DE PAGINA ###########*/
 
@@ -303,4 +322,33 @@ nav {
     .social-media >a >i:hover {
         background-color: #d03d3d;
         border-color: #d03d3d;
+    }
+    /*######################################################################## break ###########*/
+    @media screen and (max-widht: 700px) {
+        .hamburguer{
+            display: block;
+        }
+        .enlaces-header{
+            position: fixed;
+            background-color: #d03d3d;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+            clip-path: circle(0.0% at 4% 3%);
+
+        }
+        .enlaces-header a{
+            color: #fff;
+            background-color: #d03d3d;
+            text-transform: uppercase;
+            font-weight: 800;
+            width: 50%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
     }
